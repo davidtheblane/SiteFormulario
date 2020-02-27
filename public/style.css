@@ -1,8 +1,8 @@
 /*GLOBAL */
 
 * {
- /*corrigindo comportamento padrao do CSS*/
- box-sizing: border-box;
+  /*corrigindo comportamento padrao do CSS*/
+  box-sizing: border-box;
 }
 
 html,
@@ -21,14 +21,14 @@ body {
   background-color: #f9f9f9;
 }
 
-
-
 /* TITULOS */
-header h1, main h2 {
+header h1,
+main h2 {
   margin-bottom: 70px;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #000000cc;
 }
 
@@ -49,7 +49,6 @@ main,
 footer {
   text-align: center;
 }
-
 
 header,
 .form,
@@ -86,8 +85,6 @@ header .img {
   margin: 20px auto;
 }
 
-
-
 /* FORM */
 
 section.form {
@@ -96,24 +93,23 @@ section.form {
   grid-gap: 45px;
   background-color: #ff4f4f;
   padding: 16px 64px;
-align-items: center;
+  align-items: center;
 
-border-radius: 6px;
-
+  border-radius: 6px;
 }
 
-form input, form button {
+form input,
+form button {
   width: 100%;
   margin-bottom: 6px;
- 
+
   padding: 8px 16px;
   border-radius: 4px;
-  border:  1px #ffffff88 solid;
-
+  border: 1px #ffffff88 solid;
 }
 
 form input {
-  background-color: transparent
+  background-color: transparent;
 }
 
 form input::placeholder {
@@ -138,9 +134,7 @@ main .donors {
   align-items: center;
   position: relative;
   justify-content: center;
-  
 }
-
 
 .blood::before {
   content: "";
@@ -150,29 +144,25 @@ main .donors {
 
   position: absolute;
 
-/*fazer a gotinha*/
-border-radius: 50%;
-border-top-right-radius: 0;
+  /*fazer a gotinha*/
+  border-radius: 50%;
+  border-top-right-radius: 0;
 
-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .donor p {
   margin-top: 24px;
+  margin-bottom: 64px;
   font-size: 14px;
 }
-
-
-
 
 /*FOOTER*/
 
 footer {
   margin-top: auto;
-  padding: 16px
-  border 1px solid #eee;
+  padding: 16px border 1px solid #eee;
 }
-
 
 /* funcionalidades com javascript */
 
@@ -181,8 +171,8 @@ section.form {
 }
 
 section.form.hide {
-   opacity: 0;
-   visibility: hidden;
-   height: 0;
-   margin-bottom: -70px;
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  margin-bottom: -70px;
 }
