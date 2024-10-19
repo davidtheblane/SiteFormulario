@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/davidtheblane/SiteFormulario#readme",
   "dependencies": {
-    "express": "^4.20.0",
+    "express": "^4.21.1",
     "nodemon": "^3.1.4",
     "nunjucks": "^3.2.4"
   }
